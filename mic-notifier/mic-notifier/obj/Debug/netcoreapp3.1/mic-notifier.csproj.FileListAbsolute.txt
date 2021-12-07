@@ -1,0 +1,14 @@
+D:\Work\mic-notifier\mic-notifier\mic-notifier\bin\Debug\netcoreapp3.1\mic-notifier.exe
+D:\Work\mic-notifier\mic-notifier\mic-notifier\bin\Debug\netcoreapp3.1\mic-notifier.deps.json
+D:\Work\mic-notifier\mic-notifier\mic-notifier\bin\Debug\netcoreapp3.1\mic-notifier.runtimeconfig.json
+D:\Work\mic-notifier\mic-notifier\mic-notifier\bin\Debug\netcoreapp3.1\mic-notifier.runtimeconfig.dev.json
+D:\Work\mic-notifier\mic-notifier\mic-notifier\bin\Debug\netcoreapp3.1\mic-notifier.dll
+D:\Work\mic-notifier\mic-notifier\mic-notifier\bin\Debug\netcoreapp3.1\mic-notifier.pdb
+D:\Work\mic-notifier\mic-notifier\mic-notifier\obj\Debug\netcoreapp3.1\mic-notifier.csproj.AssemblyReference.cache
+D:\Work\mic-notifier\mic-notifier\mic-notifier\obj\Debug\netcoreapp3.1\mic-notifier.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\mic-notifier\mic-notifier\mic-notifier\obj\Debug\netcoreapp3.1\mic-notifier.AssemblyInfoInputs.cache
+D:\Work\mic-notifier\mic-notifier\mic-notifier\obj\Debug\netcoreapp3.1\mic-notifier.AssemblyInfo.cs
+D:\Work\mic-notifier\mic-notifier\mic-notifier\obj\Debug\netcoreapp3.1\mic-notifier.csproj.CoreCompileInputs.cache
+D:\Work\mic-notifier\mic-notifier\mic-notifier\obj\Debug\netcoreapp3.1\mic-notifier.dll
+D:\Work\mic-notifier\mic-notifier\mic-notifier\obj\Debug\netcoreapp3.1\mic-notifier.pdb
+D:\Work\mic-notifier\mic-notifier\mic-notifier\obj\Debug\netcoreapp3.1\mic-notifier.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "af66e57b-67ff-4e05-98f0-90f433a9eade": {
+      "ProjectGuid": "af66e57b-67ff-4e05-98f0-90f433a9eade",
+      "DisplayName": "mic-notifier",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
