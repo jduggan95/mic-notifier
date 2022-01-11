@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0-windows7.0": {
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -428,36 +428,36 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0-windows7.0": [
       "NAudio >= 2.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lauren\\.nuget\\packages\\": {}
+    "C:\\Users\\hvantil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\mic-notifier\\mic-notifier\\mic-notifier\\mic-notifier.csproj",
+      "projectUniqueName": "C:\\Work\\mic-notifier\\mic-notifier\\mic-notifier\\mic-notifier.csproj",
       "projectName": "mic-notifier",
-      "projectPath": "D:\\Work\\mic-notifier\\mic-notifier\\mic-notifier\\mic-notifier.csproj",
-      "packagesPath": "C:\\Users\\Lauren\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\mic-notifier\\mic-notifier\\mic-notifier\\obj\\",
+      "projectPath": "C:\\Work\\mic-notifier\\mic-notifier\\mic-notifier\\mic-notifier.csproj",
+      "packagesPath": "C:\\Users\\hvantil\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\mic-notifier\\mic-notifier\\mic-notifier\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lauren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hvantil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "projectReferences": {}
         }
       },
@@ -468,8 +468,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
         "dependencies": {
           "NAudio": {
             "target": "Package",
@@ -491,7 +491,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
