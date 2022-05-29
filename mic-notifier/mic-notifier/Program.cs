@@ -1,9 +1,9 @@
 ﻿using NAudio.CoreAudioApi;
+using NAudio.CoreAudioApi.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Threading;
 using System.Linq;
-using NAudio.CoreAudioApi.Interfaces;
+using System.Threading;
 
 namespace mic_notifier
 {
@@ -12,8 +12,6 @@ namespace mic_notifier
         public static bool ShouldContinue = true;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            MMDevice device = null;
             var enumerator = new MMDeviceEnumerator();
             var originalDevices = enumerator.EnumerateAudioEndPoints(DataFlow.Capture, DeviceState.Active);
             List<MMDevice> devieds = originalDevices.ToList();
@@ -30,7 +28,13 @@ namespace mic_notifier
                     Console.WriteLine("It is being used by:");
                     Console.WriteLine(session.GetSessionIdentifier);
                 }
+                else
+                {
+                    Console.WriteLine("Cleaning up session: " + session.DisplayName);
+                    session.Dispose();
+                }
             }
+            headset.AudioSessionManager.RefreshSessions();
 
             headset.AudioSessionManager.OnSessionCreated += SessionCreate;
 
@@ -46,8 +50,9 @@ namespace mic_notifier
 
         static void SessionCreate(object sender, IAudioSessionControl newSession)
         {
+            newSession.RegisterAudioSessionNotification(SessionEventsHandler.Singleton);
             Console.WriteLine("The threshold was reached.");
-            ShouldContinue = false;
+            ShouldContinue = true;
         }
 
     }
