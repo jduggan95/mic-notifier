@@ -1,14 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>mic_notifier</RootNamespace>
+    <StartupObject>mic_notifier.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Flurl.Http" Version="3.2.4" />
-    <PackageReference Include="NAudio" Version="2.0.1" />
+    <PackageReference Include="NAudio" Version="2.1.0" />
     <PackageReference Include="System.ServiceProcess.ServiceController" Version="6.0.0" />
   </ItemGroup>
 

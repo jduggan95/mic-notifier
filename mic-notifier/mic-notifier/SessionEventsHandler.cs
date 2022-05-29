@@ -60,7 +60,7 @@ namespace mic_notifier
         int IAudioSessionEvents.OnStateChanged(AudioSessionState state)
         {
             //Console.WriteLine("OnStateChanged");
-            Console.WriteLine(state.ToString());
+            //Console.WriteLine(state.ToString());
             if (state == AudioSessionState.AudioSessionStateActive)
             {
                 var result = "http://192.168.86.89:8080/hotmic".PostAsync();
