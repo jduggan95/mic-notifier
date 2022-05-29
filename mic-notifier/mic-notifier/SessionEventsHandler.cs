@@ -23,43 +23,43 @@ namespace mic_notifier
 
         int IAudioSessionEvents.OnChannelVolumeChanged(uint channelCount, IntPtr newVolumes, uint channelIndex, ref Guid eventContext)
         {
-            Console.WriteLine("OnChannelVolumeChanged");
+            //Console.WriteLine("OnChannelVolumeChanged");
             return 0;
         }
 
         int IAudioSessionEvents.OnDisplayNameChanged(string displayName, ref Guid eventContext)
         {
-            Console.WriteLine("OnDisplayNameChanged");
+            //Console.WriteLine("OnDisplayNameChanged");
             return 0;
         }
 
         int IAudioSessionEvents.OnGroupingParamChanged(ref Guid groupingId, ref Guid eventContext)
         {
-            Console.WriteLine("OnGroupingParamChanged");
+            //Console.WriteLine("OnGroupingParamChanged");
             return 0;
         }
 
         int IAudioSessionEvents.OnIconPathChanged(string iconPath, ref Guid eventContext)
         {
-            Console.WriteLine("OnIconPathChanged");
+            //Console.WriteLine("OnIconPathChanged");
             return 0;
         }
 
         int IAudioSessionEvents.OnSessionDisconnected(AudioSessionDisconnectReason disconnectReason)
         {
-            Console.WriteLine("OnSessionDisconnected");
+            //Console.WriteLine("OnSessionDisconnected");
             return 0;
         }
 
         int IAudioSessionEvents.OnSimpleVolumeChanged(float volume, bool isMuted, ref Guid eventContext)
         {
-            Console.WriteLine("OnSimpleVolumeChanged");
+            //Console.WriteLine("OnSimpleVolumeChanged");
             return 0;
         }
 
         int IAudioSessionEvents.OnStateChanged(AudioSessionState state)
         {
-            Console.WriteLine("OnStateChanged");
+            //Console.WriteLine("OnStateChanged");
             Console.WriteLine(state.ToString());
             if (state == AudioSessionState.AudioSessionStateActive)
             {
